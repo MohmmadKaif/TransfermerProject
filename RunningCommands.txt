@@ -1,0 +1,4 @@
+Maven Compilation Command:
+mvn clean package -Dmaven.test.skip=true && echo Y | copy /Y "target\Transfermer-0.0.1-SNAPSHOT.jar" "C:/MohammadKaif/KaifLearning/Misc/RunningJars/SpringBootProjects/Transfermer/Jar/"
+Running Command:
+java -jar ".\Transfermer-0.0.1-SNAPSHOT.jar"
